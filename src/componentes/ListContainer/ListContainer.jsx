@@ -1,8 +1,10 @@
-import React from 'react'
+import './ListContainer.css'
 
 const ListContainer = (props) => {
     return (
-        <h2> {props.greeting} </h2>
+        <div className='centrartit'>
+        <h3 className='tit'> {props.greeting} </h3>
+        </div>
     )
 }
 
