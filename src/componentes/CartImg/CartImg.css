@@ -1,3 +1,9 @@
 .imgCarrito {
     width: 3rem;
 }
+.numcarrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
