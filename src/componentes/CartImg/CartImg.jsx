@@ -1,7 +1,7 @@
 import './CartImg.css'
 
 const CartImg = () => {
-    const imgCarrito = "src/assets/carrito.jpg";
+    const imgCarrito = "public/assets/carrito.jpg";
     return (
         <div className='numcarrito'>
             <img className='imgCarrito' src={imgCarrito} alt="carrito de compras" />
