@@ -1,18 +1,3 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid black;
-    background-color: darkslategray;
-}
-
-li {
-    color: dimgrey;
-    font-family: cursive;
-    display: inline-block;
-    margin: 1rem;
-    cursor: pointer;
-}
 .uni {
 color: darkcyan;
 }

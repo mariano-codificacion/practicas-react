@@ -2,7 +2,7 @@ import './ListContainer.css'
 
 const ListContainer = (props) => {
     return (
-        <div className='centrartit'>
+        <div className='text-center'>
         <h3 className='tit'> {props.greeting} </h3>
         </div>
     )
