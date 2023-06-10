@@ -1,7 +1,7 @@
 .imgCarrito {
     width: 3rem;
 }
-.numcarrito{
+.numCarrito{
     display: flex;
     justify-content: center;
     align-items: center;
