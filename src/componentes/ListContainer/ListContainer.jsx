@@ -5,17 +5,17 @@ import ItemList from "../ItemList/ItemList";
 const ListContainer = (props) => {
     const [productos, setProductos] = useState([]);
 
-    useEffect( () => {
+    useEffect(() => {
         getProductos()
             .then(respuesta => setProductos(respuesta))
             .catch(error => console.log(error))
 
     }, [])
     return (
-        <>
-        <h2 className="tit text-center"> {props.greeting} </h2>
-        <ItemList productos={productos} />
-        </>
+        <div className="cards">
+            <h2 className="tit text-center"> {props.greeting} </h2>
+            <ItemList productos={productos} />
+        </div>
     )
 }
 
