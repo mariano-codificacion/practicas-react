@@ -1,5 +1,5 @@
 import './Item.css'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Item = ({id, nombre, precio, img}) => {
   return (

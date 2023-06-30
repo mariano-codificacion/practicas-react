@@ -7,7 +7,6 @@ import { Link, NavLink } from 'react-router-dom';
 import './NavBar.css'
 //[Tutor] Nico Smael:	Para los que usan Bootstrap , los tienen que transformar a Link o Navlink con la propiedad as <Nav.Link as={Link} to="/tuCategoria">Nombre Categoria</Nav.Link>
 
-
 const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
