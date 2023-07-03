@@ -1,5 +1,5 @@
 .btnAgregar{
-    background-color: slateblue;
+    background-color: steelblue;
     color: white;
     font-size: 1rem;
     width: 10rem;
@@ -8,13 +8,13 @@
     cursor: pointer;
 }
 .menos{
-    background-color: darkslategray;
+    background-color: steelblue;
     color: white;
     font-size: rem;
     width: 2rem;
 }
 .mas{
-    background-color: darkslategray;
+    background-color: steelblue;
     color: white;
     font-size: 1rem;
     width: 2rem;
@@ -30,4 +30,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: darkslategrey;
+    
+  
 }
