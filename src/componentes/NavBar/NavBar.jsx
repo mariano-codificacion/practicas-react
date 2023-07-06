@@ -9,7 +9,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="red" expand="lg">
       <Container className='color'>
         <Nav.Link as={NavLink} to="/#HOME"><h1 className='uni'> UNIFORMES ESCOLARES </h1></Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
