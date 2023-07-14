@@ -17,9 +17,9 @@ const NavBar = () => {
           <Nav className="me-auto">
           <Nav.Link as={Link} to="/#HOME">HOME</Nav.Link>
             <NavDropdown title="UNIFORMES" id="basic-nav-dropdown">
-              <Nav.Link as={Link} to="/categoria/1">Maestros</Nav.Link>
-              <Nav.Link as={Link} to="/categoria/2">Niña</Nav.Link>
-              <Nav.Link as={Link }to="/categoria/3">Niño</Nav.Link>
+              <Nav.Link as={NavLink} to={"/categoria/1"}>Maestros</Nav.Link>
+              <Nav.Link as={NavLink} to={"/categoria/2"}>Niñas</Nav.Link>
+              <Nav.Link as={NavLink} to={"/categoria/3"}>Niños</Nav.Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

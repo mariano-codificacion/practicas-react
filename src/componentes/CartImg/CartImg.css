@@ -1,5 +1,7 @@
 .imgCarrito {
-    width: 3rem;
+    width: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .numCarrito{
     display: flex;
