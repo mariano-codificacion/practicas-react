@@ -35,3 +35,12 @@ h2 {
     border: 1px solid black;
     border-radius: 5px;
 }
+.btnComprar {
+    background-color:indigo;
+    color: white;
+    font-size: 1rem;
+    width: 9rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

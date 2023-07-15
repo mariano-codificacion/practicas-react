@@ -133,7 +133,7 @@ const Checkout = () => {
                     error && <p style={{ color: "red" }}> {error} </p>
                 }
 
-                <button type="submit"> Finalizar Compra </button>
+                <button className="btnComprar" type="submit"> Finalizar Compra </button>
             </form>
             {
                 orderId && (
