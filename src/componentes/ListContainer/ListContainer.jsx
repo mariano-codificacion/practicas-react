@@ -29,7 +29,7 @@ const ListContainer = () => {
 
     return (
         <div className="cards text-center">
-            <h2 className="tit text-center"> Mis Productos </h2>
+            <h2 className="tit text-center"> Mis Uniformes </h2>
             <ItemList productos={productos} />
         </div>
     )
