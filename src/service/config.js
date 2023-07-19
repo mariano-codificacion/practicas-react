@@ -7,7 +7,7 @@ import {getFirestore} from "firebase/firestore"
 
 //Estamos trabajando con un objeto con toda nuestra información de la cuenta. Acá se incluye la Key personal de acceso a la BD. 
 const firebaseConfig = {
-  apiKey: "AIzaSyAb6WujJFu1IvpbYm-1R0MG9OLI0Lcqfk8",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "coderhouse-cb09b.firebaseapp.com",
   projectId: "coderhouse-cb09b",
   storageBucket: "coderhouse-cb09b.appspot.com",
