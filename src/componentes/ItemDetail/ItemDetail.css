@@ -10,6 +10,7 @@
 }
 
 .img-producto {
+    margin: 1rem;
     width: 250px;
     object-fit: contain;
 }

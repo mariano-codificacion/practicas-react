@@ -1,12 +1,12 @@
 .formulario {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 400px;
+    margin: 2rem auto;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 label {
@@ -19,7 +19,7 @@ input, textarea {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 
@@ -38,8 +38,8 @@ h2 {
 .btnComprar {
     background-color:indigo;
     color: white;
-    font-size: 1rem;
-    width: 9rem;
+    font-size: 1.1rem;
+    width: 12rem;
     border-radius: 10px;
     border: none;
     cursor: pointer;

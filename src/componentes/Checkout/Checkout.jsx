@@ -34,7 +34,7 @@ const Checkout = () => {
 
         //Validamos que los campos del email coincidan: 
         if (email !== emailConfirmacion) {
-            setError("Los campos del email no coinciden, maldito seas!!");
+            setError("Los campos del email no coinciden!!");
             return;
         }
 
@@ -83,7 +83,7 @@ const Checkout = () => {
                     })
             })
             .catch((error) => {
-                console.log("Error al actualizar el stock. Dedicate a otra cosa", error);
+                console.log("Error al actualizar el stock", error);
                 setError("Error al actualizar el stock. Intente nuevamente");
             })
 
